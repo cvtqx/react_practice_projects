@@ -1,11 +1,12 @@
 import './App.css';
+import CounterWithLocalStorage from './components/localStorage';
 // import Accordion from './components/accordion';
 // import ImageSlider from './components/image-slider';
 // import LoadMoreData from './components/load-more-data';
 // import RandomColor from './components/random-color';
 // import StarRating from './components/star-rating';
-//import MapAPI from './components/mapAPI';
-import ParentComponent from './components/reactConcepts';
+// import MapAPI from './components/mapAPI';
+
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
       {/* <LoadMoreData /> */}
       {/* Map component */}
       {/* <MapAPI /> */}
-      <ParentComponent />
+      <CounterWithLocalStorage />
 
     </div>
   );
